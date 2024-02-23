@@ -31,7 +31,7 @@ f = temp_path + '\\globals'
 lsf = f + '.lsf'
 lsx = f + '.lsx'
 
-
+#Run converter tool
 subprocess.run(['.\\divine.exe', '-s', lsf, '-d', lsx, '-a', 'convert-resource'])
 
 #Create a parse tree from the "globals.lsx" file
